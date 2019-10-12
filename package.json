@@ -23,7 +23,6 @@
     "@babel/preset-env": "^7.6.3",
     "@babel/preset-es2015": "^7.0.0-beta.53",
     "@babel/preset-react": "^7.6.3",
-    "babel-plugin-inline-react-svg": "^1.1.0",
     "eslint": "^6.5.1",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-plugin-import": "^2.18.2",
