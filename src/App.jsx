@@ -1,22 +1,19 @@
+import { hot } from 'react-hot-loader';
+
 import React from 'react';
-import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div>
+      <header>
         <p>Kukucs</p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <a href="https://reactjs.org">Learn React</a>
       </header>
+      <h1>Holly molly! Its working</h1>
+      <h2>Does it reload?</h2>
+      look at that
     </div>
   );
 }
 
-export default App;
+export default hot(module)(App);

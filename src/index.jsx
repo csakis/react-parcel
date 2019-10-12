@@ -1,7 +1,11 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
+import { render } from 'react-dom';
 import App from './App';
-import 'typeface-roboto';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+function renderApp() {
+  render(<App />, document.getElementById('root'));
+}
+
+renderApp();
+
+module.hot.accept();
