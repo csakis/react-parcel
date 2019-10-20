@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.jsx",
   "scripts": {
-    "dev": "parcel watch manifest.json --out-dir build",
+    "dev": "parcel watch manifest.json --out-dir",
     "test": "jest --watch",
     "lint": "eslint src/**/*"
   },
