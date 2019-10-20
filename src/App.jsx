@@ -10,8 +10,7 @@ function App() {
         <a href="https://reactjs.org">Learn React</a>
       </header>
       <h1>Holly molly! Its working</h1>
-      <h2>Does it reload?</h2>
-      look at that
+      <h2>It also reloads</h2>
     </div>
   );
 }
