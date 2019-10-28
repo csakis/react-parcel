@@ -1,18 +1,19 @@
-import { hot } from 'react-hot-loader';
-
 import React from 'react';
+import Container from '@material-ui/core/Container';
+import CssBaseline from '@material-ui/core/CssBaseline';
+import Btn2 from './Btn2';
 
-function App() {
-  return (
-    <div>
-      <header>
-        <p>Kukucs</p>
-        <a href="https://reactjs.org">Learn React</a>
-      </header>
-      <h1>Holly molly! Its working</h1>
-      <h2>It also reloads</h2>
-    </div>
-  );
-}
+const App = () => (
+  <Container
+    style={{
+      width: '300px',
+      'padding-bottom': '15px',
+    }}
+  >
+    <CssBaseline />
+    <h2>Ip address parser</h2>
+    <Btn2 />
+  </Container>
+);
 
-export default hot(module)(App);
+export default App;
